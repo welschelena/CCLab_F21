@@ -1,0 +1,49 @@
+
+
+body {
+  font-family:fantasy;
+  background-color: lightblue;
+}
+
+h1 {
+  color: purple;
+  font-size: 50px;
+}
+
+h2 {
+  color: green;
+  font-size: 30px;
+}
+
+h4 {
+  color: darkblue;
+  font-size: 20px;
+}
+
+a{
+  color: blue;
+}
+
+
+p {
+  font-size: 20px;
+  padding: 8px;
+}
+
+
+.Random_Facts :hover{
+  color: white;
+  font-size: 18px;
+  background-color:darkblue;
+    letter-spacing: 2px;
+}
+
+#Facts {
+  color: green;
+  font-size: 30px;
+}
+
+#page {
+  color: black;
+  font-size: 23px;
+}
