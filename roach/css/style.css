@@ -1,0 +1,47 @@
+body {
+  background-color: lightyellow;
+}
+#canvasFrame {
+  margin: 100px;
+}
+
+h1{
+  font-size: 40px;
+  font-style: oblique;
+  background-color: lightblue;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-style: oblique;
+  color: darkgreen;
+  position: absolute;
+  top: 55px;
+  left: 540px;
+  border-radius: 100px;
+
+}
+
+#flyButton {
+  font-style: oblique;
+  background-color: lightblue;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkgreen;
+  position: absolute;
+  top: 100px;
+  left: 520px;
+
+}
+
+#colourButton {
+  font-style: oblique;
+  background-color: lightblue;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkgreen;
+  position: absolute;
+  top: 100px;
+  left: 660px;
+}
