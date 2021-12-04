@@ -1,0 +1,164 @@
+body {
+  font-family:fantasy;
+  background-color: lightblue;
+  margin: 20px;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+h1 {
+text-align: center;
+color: darkblue;
+font-size: 70px;
+margin: 5px;
+}
+
+h2 {
+  color: green;
+  font-size: 30px;
+  margin: 50px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  text-decoration: solid underline darkblue 4px;
+  clear: both;
+}
+
+
+h3 {
+  margin-left: 40px;
+  color: black;
+  font-size: 25px;
+}
+
+
+a{
+  color: blue;
+}
+
+img {
+  margin: 40px;
+}
+
+video {
+margin: 20px;
+}
+
+#p1 {
+  min-width: 400px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bold;
+background-image: linear-gradient(to bottom, rgba(0,250,50,0.2), rgba(0,100,240,0.5));
+  margin-top: 1px;
+  margin-bottom: 40px;
+  margin-left: 120px;
+  margin-right: 100px;
+}
+
+
+#page {
+  margin: 50px;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  position: relative;padding: 30px;
+  color: black;
+  font-size: 30px;
+}
+
+#small-pic {
+  margin: 1px;
+  margin-left: 15px;
+}
+
+#myRange {
+
+  top: 40%;
+  transform: rotate(270deg);
+}
+
+#coralvideo-container {
+  position: relative;
+}
+
+#°C {
+  position: absolute;
+  top: 10px;
+  left: 780px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+#instructions {
+  position: absolute;
+  top: 370px;
+  left: 800px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#canvasFrame {
+ display: block;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  margin: 20px;
+}
+
+.slidecontainer {
+  position: absolute;
+  top: 220px;
+  left: 560px;
+}
+
+.slidecontainer input[type="range"] {
+-webkit-appearance: none !important;
+width: 400px;
+height: 30px;
+background: linear-gradient(to left, rgba(255,0,0), rgba(0,0,255));
+border-radius: 10px;
+}
+
+.slidecontainer input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  width: 15px;
+  height: 45px;
+  background: lightgreen;
+  border: 1px black;
+}
+
+.slidecontainer input[type="range"]::-webkit-slider-thumb:hover {
+  background: white;
+}
+
+.RisTemp :hover{
+  color: white;
+  font-size: 25px;
+  background-color:darkblue;
+    letter-spacing: 2px;
+}
+
+.Acid :hover{
+  color: white;
+  font-size: 25px;
+  background-color:darkblue;
+    letter-spacing: 2px;
+}
+
+.MelIce :hover{
+  color: white;
+  font-size: 25px;
+  background-color:darkblue;
+    letter-spacing: 2px;
+}
+
+.Deox :hover{
+  color: white;
+  font-size: 25px;
+  background-color:darkblue;
+    letter-spacing: 2px;
+}
