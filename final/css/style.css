@@ -1,9 +1,21 @@
+
 body {
   font-family:fantasy;
   background-color: lightblue;
   margin: 20px;
 }
 
+p {
+  color: white;
+  min-width: 400px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+  margin-right: 100px;
+}
 canvas {
   display: block;
   position: fixed;
@@ -20,7 +32,7 @@ margin: 5px;
 }
 
 h2 {
-  color: green;
+  color: darkgreen;
   font-size: 30px;
   margin: 50px;
   margin-top: 2px;
@@ -36,6 +48,13 @@ h3 {
   font-size: 25px;
 }
 
+h4 {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline black 5px;
+  margin-bottom: 10px;
+}
 
 a{
   color: blue;
@@ -47,6 +66,13 @@ img {
 
 video {
 margin: 20px;
+}
+
+ul {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: bolder;
 }
 
 #p1 {
@@ -61,6 +87,17 @@ background-image: linear-gradient(to bottom, rgba(0,250,50,0.2), rgba(0,100,240,
   margin-right: 100px;
 }
 
+#page2 {
+  color: darkblue;
+  min-width: 400px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+  margin-right: 100px;
+}
 
 #page {
   margin: 50px;
@@ -72,8 +109,9 @@ background-image: linear-gradient(to bottom, rgba(0,250,50,0.2), rgba(0,100,240,
 }
 
 #small-pic {
-  margin: 1px;
-  margin-left: 15px;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 #myRange {
@@ -87,26 +125,36 @@ background-image: linear-gradient(to bottom, rgba(0,250,50,0.2), rgba(0,100,240,
 }
 
 #°C {
+  color: black;
   position: absolute;
   top: 10px;
-  left: 780px;
+  left: 670px;
   font-size: 30px;
   font-weight: bolder;
 }
 #instructions {
+  color: black;
   position: absolute;
   top: 370px;
-  left: 800px;
+  left: 680px;
   font-size: 20px;
   font-weight: bolder;
 }
 
-#canvasFrame {
+#underwater-pic {
+ margin-left: 60px;
  display: block;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#skyline {
+ margin-left: 60px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 .slidecontainer {

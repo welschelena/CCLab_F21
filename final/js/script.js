@@ -25,7 +25,7 @@ function mouseWheel(event) {
 
 function draw() {
   image(img, 0, 0, windowWidth, windowHeight);
-
+  noStroke();
   fill(50, 100, 200, 190);
 
   beginShape();
@@ -41,7 +41,7 @@ function draw() {
   }
 
   yoff += 0.01;
-//  waterlevel -= 1.0;
+  waterlevel -= 0.3;
   vertex(width, height);
   vertex(0, height);
   endShape(CLOSE);
